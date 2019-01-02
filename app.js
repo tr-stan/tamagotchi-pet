@@ -7,3 +7,4 @@ class Tamagotchi {
     }
 
 }
+let myTamagotchi = new Tamagotchi(1, 0, 0, 0);
