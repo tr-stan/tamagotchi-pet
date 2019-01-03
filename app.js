@@ -8,3 +8,8 @@ class Tamagotchi {
 
 }
 let myTamagotchi = new Tamagotchi(1, 0, 0, 0);
+
+$("#hunger").append(myTamagotchi.hunger);
+$("#sleepiness").append(myTamagotchi.sleepiness);
+$("#boredom").append(myTamagotchi.boredom);
+$("#age").append(myTamagotchi.age);
