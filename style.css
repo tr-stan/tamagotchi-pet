@@ -1,0 +1,13 @@
+#home {
+	min-width: 500px;
+	min-height: 790px;
+	background: url(tamagotchi-home.png) center no-repeat;
+}
+
+#tamagotchi {
+	max-width: 60px;
+	max-height: 60px;
+	position: relative;
+	left: 666px;
+	top: 420px;
+}
