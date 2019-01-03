@@ -7,15 +7,25 @@
 </head>
 
 <body>
-    <section id="home">
-    	<p id="hunger">Hunger: </p>
-    	<p id="sleepiness">Sleepiness: </p>
-    	<p id="boredom">Boredom: </p>
-    	<p id="age">Age: </p>
-    	<img id="tamagotchi" src="tamagotchi-bunny-2.png">
-    </section>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./app.js"></script>
+    <div class="home">
+    	<img src="tamagotchi-home.png"/>
+    </div>
+    <div class="stats">
+        <p id="hunger">Hunger: </p>
+        <p id="sleepiness">Sleepiness: </p>
+        <p id="boredom">Boredom: </p>
+        <p id="age">Age: </p>
+    </div>
+    <div class="tamagotchi">
+    	<img src="tamagotchi-bunny-2.png"/>
+	</div>
+    <div class="actions">
+        <button id="feed">feed</button>
+        <button id="lights">lights out!</button>
+        <button id="play">play</button>
+    </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./app.js"></script>
 </body>
 
 </html>
