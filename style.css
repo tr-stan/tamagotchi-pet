@@ -13,11 +13,10 @@ div {
     line-height: 80%;
     left: 0;
     right: 0;
+    max-height: 500px;
 }
 
 .home {
-    position: absolute;
-    
     max-width: 440px;
 }
 
@@ -43,5 +42,9 @@ div {
 }
 
 .actions {
-	
+    text-align: center;
+    top: 330px;
 }
+
+
+
