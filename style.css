@@ -8,12 +8,12 @@ body {
 }
 
 div {
-    color: #dffdcf;
     position: absolute;
     line-height: 80%;
     left: 0;
     right: 0;
     max-height: 500px;
+    color: #dffdcf;
 }
 
 .home {
