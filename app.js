@@ -37,7 +37,7 @@ function hatch() {
         myTamagotchi.age += 1;
         $("#age").replaceWith(`<p id='age'>Age: ${myTamagotchi.age}</p>`);
         grow();
-    }, 30000)
+    }, 15000)
 }
 //create functions to increment stats
 
